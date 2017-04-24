@@ -1,19 +1,17 @@
 package indi.group.pcss.controller;
 
-import java.util.Locale;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import indi.group.pcss.model.User;
+import com.alibaba.fastjson.JSONObject;
+import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import indi.group.pcss.model.User;
 
 /**
  * Handles requests for the application home page.
@@ -30,8 +28,9 @@ public class LoginController {
      * 此方法接受0参数url请求，value="",并返回Index给用户，即重定向到主页
      */
     @GetMapping("")
-    public String home(Locale locale) {
-        logger.debug("Index.jsp has been requested");
+    public String home(HttpServletRequest request) {
+        logger.debug("Index.jsp has been invoked");
+        logger.info("the user ip is {}", getIpAddr(request));
         return "Index";
 	}
     /**
@@ -52,9 +51,11 @@ public class LoginController {
      */
     @PostMapping("/LoginCheck")
     @ResponseBody
-    public User loginCheck(@RequestBody User user) {
-    	logger.debug("username:{0},password:{1}",user.getUsername(),user.getPassword());
-    	return user;
+    public User loginCheck(@RequestBody String value, HttpServletRequest request) {
+        JSONObject jobject = JSONObject.parseObject(value);
+    	logger.info("Username:{},password:{}, have checkbox: {}", jobject.get("username"), jobject.get("password"), jobject.get("autoLogin"));
+    	logger.info("The user ip is {}", getIpAddr(request));
+    	return null;
     }
     /**
      * Describle:
@@ -65,7 +66,6 @@ public class LoginController {
     public String requestTest(@PathVariable(value="arg1") int inputArgs1,@PathVariable(value="arg2") int inputArgs2) {
         return "" + inputArgs1 + inputArgs2;
     }
-    
     /**
      * Describle:
      * 用来测试请求路径下的子路径请求
@@ -77,8 +77,31 @@ public class LoginController {
         logger.debug("ReqTest has been invoked");
         return "Recv from reqtest function";
     }
-    
     /**
-     * 
+     * Describle:
+     * 获取request中的客户端IP地址
      */
+    public String getIpAddr(HttpServletRequest request) {
+        String ip = request.getHeader("x-forwarded-for");
+        if (ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+            ip = request.getHeader("Proxy-Client-IP");
+        }
+        if (ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+            ip = request.getHeader("WL-Proxy-Client-IP");
+        }
+        if (ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+            ip = request.getRemoteAddr();
+        }
+        if (ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+            ip = request.getHeader("http_client_ip");
+        }
+        if (ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+            ip = request.getHeader("HTTP_X_FORWARDED_FOR");
+        }
+        // 如果是多级代理，那么取第一个ip为客户ip
+        if (ip != null && ip.indexOf(",") != -1) {
+            ip = ip.substring(ip.lastIndexOf(",") + 1, ip.length()).trim();
+        }
+        return ip;
+    }
 }

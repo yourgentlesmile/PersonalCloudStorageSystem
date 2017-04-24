@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>PersonalCloudStorageSystem</title>
         <script type="text/javascript" src="resource/js/jquery-3.2.0.js" ></script>
         <script type="text/javascript" src="resource/js/bootstrap.js" ></script>
         <script type="text/javascript" src="resource/js/jquery.cookie.js" ></script>
@@ -17,32 +17,23 @@
         <link rel="stylesheet" type="text/css" href="resource/css/local.css"/>
     </head>
     <script type="text/javascript">
+    var canflush=true;
+    var serversafecodeimg;
     function reloadcode() {
         canflush=true;
         var verify = document.getElementById('safecodeimg');  
-        verify.setAttribute('src', 'makeCerPic');
+        verify.setAttribute('src', 'makeCerPic?math=' + Math.random());
     }
-    var canflush=true
-    var a;
+    function updateServerCode(data,textStatus){
+        serversafecodeimg = data;
+        canflush = false;
+    }
     $.validator.addMethod("checksafecode",function(value,element){
         if(canflush==true){
-            $.ajax({
-                cache:true,
-                type:"GET",
-                datatype:"text",
-                contentType: "text/html",
-                url:"getsafecode",
-                data:null,
-                error: function(XMLHttpRequest,textStatus,errorThrown) {
-                    alert(alert(XMLHttpRequest.status+"\r\n"+XMLHttpRequest.readyState+"\r\n"+textStatus))
-                },
-                success: function(data,textStatus) {
-                    a=data;
-                    canflush=false;
-                }
-            });
+            getSafeCode();
         }
-        if(value==a)
+        console.log("In check safecode serversafecodeimg = " + serversafecodeimg);
+        if(value==serversafecodeimg)
         {
             return true;
         }else {
@@ -50,6 +41,7 @@
         }
     },"验证码不正确");
     $().ready(function() {
+        document.getElementById("safecodeimg").onload = getSafeCode;
         reloadcode();
         $(function() {
             var validate = $("#loginform").validate({
@@ -59,11 +51,11 @@
                 errorPlacement: function(error, element) {
                             $(error).toggleClass("alert alert-danger errormessage");
                             element.parent().after(error);
-                    },
+                            },
                 debug: true,
                 submitHandler: function(form) {
-                    var user = new formInfo($("#username").val(),$("#password").val());
-                    post(user,"LoginCheck","POST");
+                    var user = new formInfo($("#username").val(),$("#password").val(),$("#autoLogin").prop("checked"));
+                    post(user,"Login/LoginCheck","POST");
                     alert("submiting");
                 },
                 errorElement:'div',
@@ -84,7 +76,7 @@
                 messages: {
                     username: {
                         required: "请输入用户名",
-                        rangelength: $.validator.format("用户名不能短于{0}个字符"),
+                        rangelength: $.validator.format("用户名不能短于{0}个字符")
                     },
                     password: {
                         required: "请输入密码",
@@ -97,12 +89,29 @@
             });
         })
     });
-    
-    function formInfo(username,password) {
+    function formInfo(username,password,autoLogin) {
         var o = {};
-        o.username=username;
-        o.password=password;
+        o.username = username;
+        o.password = password;
+        o.autoLogin = autoLogin;
         return o;
+    }
+    function getSafeCode(){
+        $.ajax({
+                cache:true,
+                type:"GET",
+                datatype:"text",
+                contentType: "text/html",
+                url:"Login/getsafecode",
+                data:null,
+                error: function(XMLHttpRequest,textStatus,errorThrown) {
+                    alert(alert(XMLHttpRequest.status+"\r\n"+XMLHttpRequest.readyState+"\r\n"+textStatus))
+                },
+                success: function(data,textStatus) {
+                    serversafecodeimg=data;
+                    canflush=false;
+                }
+            });
     }
     function post(user,methodURL,method) {
         $.ajax({
@@ -119,7 +128,7 @@
                 console.log(data);
                 console.log(textStatus);
             }
-        })
+        });
     }
     </script>
     <body>
@@ -159,12 +168,12 @@
                                         </span>
                                     </div>
                                     <div class="input-group linewidthholder" >
-                                        <input type="checkbox" name="autoLogin" id="autoLogin"/>
-                                                                                下次自动登录<br />
+                                        <input type="checkbox" name="autoLogin" id="autoLogin"/>下次自动登录<br />
                                     </div>
-                                    <button type="submit" onclick="javascript(0);" class="btn btn-info btn-lg btn-block submit-holder">登录</button>
+                                    <button type="submit" onclick="javascript:void(0);" class="btn btn-info btn-lg btn-block submit-holder">登录</button>
                                 </form>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
