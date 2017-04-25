@@ -29,9 +29,8 @@
     function singleFileUpload(){
         
     }
-    singleFileUpload.prototype.single = function (fileobj,filemd5,callback){
+    singleFileUpload.prototype.single = function (fileobj,url,filemd5,callback){
     	console.log("[DEBUG] In fileupload file name = " + fileobj.name);
-        var url = "/HouseIntermediarySystem/upload";
         var form = new FormData();
         form.append("xc", fileobj);
         form.append("filemd5",filemd5);

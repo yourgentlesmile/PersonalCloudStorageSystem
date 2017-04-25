@@ -34,7 +34,7 @@
                                 console.log("[DEBUG] mark = " + mark + " file name :" + fileobj[mark]);
                                 if(data=="0"){
                                     var s = new singleFileUpload();
-                                    s.single(fileobj[mark],num,function(evt){
+                                    s.single(fileobj[mark],"/PersonalCloudStorageSystem/upload",num,function(evt){
                                         if(mark != nums){
                                             getFileMD5(fileobj[mark],calls);
                                         }

@@ -49,7 +49,7 @@ public class FileTransmissonController {
      */
     @RequestMapping("/upload")
     @ResponseBody
-    public String springfileUpload(HttpServletRequest request, HttpServletResponse response) throws IllegalStateException, IOException {
+    public String springfileUpload(HttpServletRequest request) throws IllegalStateException, IOException {
         CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver(request.getSession().getServletContext());
         logger.debug("Check is Multipart = " + multipartResolver.isMultipart(request));
         if (multipartResolver.isMultipart(request)) {
