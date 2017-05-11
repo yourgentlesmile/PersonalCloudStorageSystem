@@ -1,28 +1,39 @@
 package indi.group.pcss.model;
 
 public class User {
-    private Integer id;
-
+    private Integer userId;
     private String username;
-
     private String password;
-
-    public Integer getId() {
-        return id;
+    public User(Integer userId, String username, String password) {
+        super();
+        this.userId = userId;
+        this.username = username;
+        this.password = password;
     }
-    public void setId(Integer id) {
-        this.id = id;
+    public User() {
+        super();
+    }
+    public Integer getUserId() {
+        return userId;
+    }
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
     public String getUsername() {
         return username;
     }
     public void setUsername(String username) {
-        this.username = username == null ? null : username.trim();
+        this.username = username;
     }
     public String getPassword() {
         return password;
     }
     public void setPassword(String password) {
-        this.password = password == null ? null : password.trim();
+        this.password = password;
+    }
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "User [userId=" + userId + ", username=" + username + ", password=" + password + "]";
     }
 }

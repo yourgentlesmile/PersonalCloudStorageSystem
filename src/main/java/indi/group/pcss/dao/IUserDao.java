@@ -1,15 +1,13 @@
 package indi.group.pcss.dao;
 
+import java.util.List;
 
 import indi.group.pcss.model.User;
 
-
 public interface IUserDao {
-    int deleteByPrimaryKey(Integer id);
     int insert(User record);
-    int insertSelective(User record);
-    User selectByPrimaryKey(Integer id);
-    int updateByPrimaryKeySelective(User record);
-    int updateByPrimaryKey(User record);
-    User selectByUserName(String username);
+    int deleteByUserId(Integer id);
+    User selectByUsername(String username);
+    int updateByUserId(User record);
+    List<User> listGetAll();
 }

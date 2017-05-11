@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="indi.group.pcss.dao.IFileInformationDao">
+    <resultMap type="indi.group.pcss.model.FileInformation" id="BaseResultMap">
+        <result column="md5_filename" property="md5_filename"/>
+        <result column="file_size_kb" property="file_size_kb"/>
+        <result column="file_type" property="file_type"/>
+        <result column="file_status" property="file_status"/>
+        <result column="create_time" property="create_time"/>
+        <result column="upload_ip" property="upload_ip"/>
+        <result column="save_server_name" property="save_server_name"/>
+    </resultMap>
+    <insert id="insert" parameterType="indi.group.pcss.model.FileInformation">
+        insert into upload_file values(#{md5_filename},#{file_size_kb},#{file_type},#{file_status},#{create_time},#{upload_ip},#{save_server_name})
+    </insert>
+    <delete id="deleteByMd5" parameterType="java.lang.String">
+        delete from upload_file where md5_filename = #{md5_filename}
+    </delete>
+    <select id="selectByMd5" parameterType="java.lang.String" resultType="indi.group.pcss.model.FileInformation">
+        select * from upload_file where md5_filename = #{md5_filename}
+    </select>
+    <update id="updateByMd5" parameterType="indi.group.pcss.model.FileInformation">
+        update upload_file 
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="file_size_kb != null">
+                file_size_kb = #{file_size_kb},
+            </if>
+            <if test="file_type != null">
+                file_type = #{file_type},
+            </if>
+            <if test="file_status != null">
+                file_status = #{file_status},
+            </if>
+            <if test="create_time != null">
+                create_time = #{create_time},
+            </if>
+            <if test="upload_ip != null">
+                upload_ip = #{upload_ip},
+            </if>
+            <if test="save_server_name != null">
+                save_server_name = #{save_server_name}
+            </if>
+        </trim>
+        where md5_filename = #{md5_filename}
+    </update>
+    <select id="listGetAll" resultMap="BaseResultMap">
+        select * from upload_file
+    </select>
+</mapper>

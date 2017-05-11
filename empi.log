@@ -1,0 +1,752 @@
+2017-05-10 21:36:37,930 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 21:36:38,213 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@1b7cc17c: startup date [Wed May 10 21:36:38 CST 2017]; root of context hierarchy
+2017-05-10 21:36:38,419 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 21:36:38,420 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 21:36:38,421 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 21:36:38,421 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 21:36:38,423 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 21:36:38,423 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 21:36:38,464 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 21:36:38,599 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:36:38,941 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 21:36:39,158 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:36:39,160 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 21:36:39,286 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 21:36:39,304 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 21:36:39,321 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 21:36:39,526 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@1b7cc17c: startup date [Wed May 10 21:36:38 CST 2017]; root of context hierarchy
+2017-05-10 21:36:39,530 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 21:37:19,478 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 21:37:19,730 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@1b7cc17c: startup date [Wed May 10 21:37:19 CST 2017]; root of context hierarchy
+2017-05-10 21:37:19,935 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 21:37:19,936 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 21:37:19,937 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 21:37:19,938 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 21:37:19,940 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 21:37:19,940 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 21:37:19,977 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 21:37:20,099 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:37:20,438 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 21:37:20,703 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:37:20,704 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 21:37:20,813 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 21:37:20,834 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 21:37:20,856 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 21:37:21,416 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:37:21,422 DEBUG [org.mybatis.spring.SqlSessionUtils] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68ed96ca]
+2017-05-10 21:37:21,430 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@e72dba7] will be managed by Spring
+2017-05-10 21:37:21,437 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==>  Preparing: insert into user(username,password) value(?,?) 
+2017-05-10 21:37:21,471 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==> Parameters: test(String), order1(String)
+2017-05-10 21:37:21,540 DEBUG [indi.group.pcss.dao.IUserDao.insert] - <==    Updates: 1
+2017-05-10 21:37:21,540 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68ed96ca]
+2017-05-10 21:37:21,540 DEBUG [org.mybatis.spring.SqlSessionUtils] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68ed96ca] from current transaction
+2017-05-10 21:37:21,540 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==>  Preparing: insert into user_information ( user_id,username,parent_space_user_id,real_name,email,telephone,introduction,avatar,register_time,freespace_kb,total_usable_space_kb ) values(?,?,?,?,?,?,?,?,?,?,?) 
+2017-05-10 21:37:21,545 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==> Parameters: 0(Integer), test(String), 66666(Integer), realtest(String), emailtest(String), telephonetest(String), introductiontest(String), avatartest(String), 2017-05-10 21:37:21.088(Timestamp), 66666(Integer), 66666(Integer)
+2017-05-10 21:37:21,547 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - <==    Updates: 1
+2017-05-10 21:37:21,547 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68ed96ca]
+2017-05-10 21:37:21,547 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68ed96ca]
+2017-05-10 21:37:21,547 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68ed96ca]
+2017-05-10 21:37:21,548 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68ed96ca]
+2017-05-10 21:37:21,602 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:37:21,602 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41de5768] was not registered for synchronization because synchronization is not active
+2017-05-10 21:37:21,605 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@e72dba7] will not be managed by Spring
+2017-05-10 21:37:21,605 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select * from user where username = ? 
+2017-05-10 21:37:21,605 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 21:37:21,684 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 21:37:21,685 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41de5768]
+2017-05-10 21:37:21,687 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:37:21,687 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@282308c3] was not registered for synchronization because synchronization is not active
+2017-05-10 21:37:21,687 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@e72dba7] will not be managed by Spring
+2017-05-10 21:37:21,687 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select * from user where username = ? 
+2017-05-10 21:37:21,688 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 21:37:21,689 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 21:37:21,689 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@282308c3]
+2017-05-10 21:37:21,690 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:37:21,690 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d9fc57a] was not registered for synchronization because synchronization is not active
+2017-05-10 21:37:21,722 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@e72dba7] will not be managed by Spring
+2017-05-10 21:37:21,722 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - ==>  Preparing: update user SET username = ?, password = ? where user_id = ? 
+2017-05-10 21:37:21,722 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - ==> Parameters: testmodify(String), order1(String), null
+2017-05-10 21:37:21,723 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - <==    Updates: 0
+2017-05-10 21:37:21,723 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d9fc57a]
+2017-05-10 21:37:21,728 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:37:21,728 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15b986cd] was not registered for synchronization because synchronization is not active
+2017-05-10 21:37:21,728 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@e72dba7] will not be managed by Spring
+2017-05-10 21:37:21,728 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select * from user where username = ? 
+2017-05-10 21:37:21,729 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 21:37:21,730 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 21:37:21,730 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15b986cd]
+2017-05-10 21:37:21,730 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:37:21,730 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b530eb9] was not registered for synchronization because synchronization is not active
+2017-05-10 21:37:21,730 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@e72dba7] will not be managed by Spring
+2017-05-10 21:37:21,730 DEBUG [indi.group.pcss.dao.IUserDao.deleteByUserId] - ==>  Preparing: delete from user where user_id = ? 
+2017-05-10 21:37:21,731 DEBUG [indi.group.pcss.dao.IUserDao.deleteByUserId] - ==> Parameters: null
+2017-05-10 21:37:21,732 DEBUG [indi.group.pcss.dao.IUserDao.deleteByUserId] - <==    Updates: 0
+2017-05-10 21:37:21,732 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b530eb9]
+2017-05-10 21:37:21,734 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:37:21,734 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44d70181] was not registered for synchronization because synchronization is not active
+2017-05-10 21:37:21,734 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@e72dba7] will not be managed by Spring
+2017-05-10 21:37:21,734 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==>  Preparing: delete from user_information where user_id = ? 
+2017-05-10 21:37:21,735 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==> Parameters: 0(Integer)
+2017-05-10 21:37:21,853 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - <==    Updates: 1
+2017-05-10 21:37:21,854 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44d70181]
+2017-05-10 21:37:21,857 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@1b7cc17c: startup date [Wed May 10 21:37:19 CST 2017]; root of context hierarchy
+2017-05-10 21:37:21,865 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 21:42:23,331 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 21:42:23,608 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 21:42:23 CST 2017]; root of context hierarchy
+2017-05-10 21:42:23,818 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 21:42:23,818 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 21:42:23,818 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 21:42:23,819 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 21:42:23,819 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 21:42:23,820 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 21:42:23,853 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 21:42:23,965 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:42:24,343 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 21:42:24,576 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:42:24,578 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 21:42:24,714 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 21:42:24,734 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 21:42:24,755 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 21:42:24,992 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:42:24,999 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1fe8d51b] was not registered for synchronization because synchronization is not active
+2017-05-10 21:42:25,359 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@320e400] will not be managed by Spring
+2017-05-10 21:42:25,368 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select * from user where username = ? 
+2017-05-10 21:42:25,404 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 21:42:25,490 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 21:42:25,491 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1fe8d51b]
+2017-05-10 21:42:25,492 DEBUG [indi.group.pcss.test.UserServiceImplTest] - User [userId=null, username=test, password=order1]
+2017-05-10 21:42:25,492 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:42:25,492 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b69fd74] was not registered for synchronization because synchronization is not active
+2017-05-10 21:42:25,530 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@320e400] will not be managed by Spring
+2017-05-10 21:42:25,530 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - ==>  Preparing: update user SET username = ?, password = ? where user_id = ? 
+2017-05-10 21:42:25,531 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - ==> Parameters: testmodify(String), order1(String), null
+2017-05-10 21:42:25,531 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - <==    Updates: 0
+2017-05-10 21:42:25,532 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b69fd74]
+2017-05-10 21:42:25,540 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 21:42:23 CST 2017]; root of context hierarchy
+2017-05-10 21:42:25,548 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 21:48:40,673 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 21:48:40,941 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@67c27493: startup date [Wed May 10 21:48:40 CST 2017]; root of context hierarchy
+2017-05-10 21:48:41,172 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 21:48:41,173 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 21:48:41,173 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 21:48:41,174 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 21:48:41,176 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 21:48:41,177 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 21:48:41,223 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 21:48:41,365 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:48:41,835 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 21:48:42,047 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:48:42,052 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 21:48:42,195 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 21:48:42,214 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 21:48:42,231 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 21:48:42,843 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:48:42,849 DEBUG [org.mybatis.spring.SqlSessionUtils] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50b8ae8d]
+2017-05-10 21:48:42,857 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@24855019] will be managed by Spring
+2017-05-10 21:48:42,862 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==>  Preparing: insert into user(username,password) value(?,?) 
+2017-05-10 21:48:42,913 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==> Parameters: test(String), order1(String)
+2017-05-10 21:48:42,935 DEBUG [indi.group.pcss.dao.IUserDao.insert] - <==    Updates: 1
+2017-05-10 21:48:42,940 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50b8ae8d]
+2017-05-10 21:48:42,941 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50b8ae8d]
+2017-05-10 21:48:42,941 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50b8ae8d]
+2017-05-10 21:48:43,007 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:48:43,007 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@437e951d] was not registered for synchronization because synchronization is not active
+2017-05-10 21:48:43,087 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@24855019] will not be managed by Spring
+2017-05-10 21:48:43,087 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select * from user where username = ? 
+2017-05-10 21:48:43,088 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 21:48:43,107 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 0
+2017-05-10 21:48:43,108 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@437e951d]
+2017-05-10 21:48:43,140 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@67c27493: startup date [Wed May 10 21:48:40 CST 2017]; root of context hierarchy
+2017-05-10 21:48:43,157 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 21:49:26,787 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 21:49:27,075 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@67c27493: startup date [Wed May 10 21:49:27 CST 2017]; root of context hierarchy
+2017-05-10 21:49:27,318 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 21:49:27,318 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 21:49:27,319 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 21:49:27,319 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 21:49:27,320 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 21:49:27,321 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 21:49:27,371 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 21:49:27,563 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:49:27,955 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 21:49:28,269 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:49:28,272 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 21:49:28,403 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 21:49:28,452 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 21:49:28,475 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 21:49:29,082 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:49:29,089 DEBUG [org.mybatis.spring.SqlSessionUtils] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:49:29,096 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will be managed by Spring
+2017-05-10 21:49:29,100 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==>  Preparing: insert into user(username,password) value(?,?) 
+2017-05-10 21:49:29,137 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==> Parameters: test(String), order1(String)
+2017-05-10 21:49:29,140 DEBUG [indi.group.pcss.dao.IUserDao.insert] - <==    Updates: 1
+2017-05-10 21:49:29,144 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:49:29,145 DEBUG [org.mybatis.spring.SqlSessionUtils] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc] from current transaction
+2017-05-10 21:49:29,145 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==>  Preparing: insert into user_information ( user_id,username,parent_space_user_id,real_name,email,telephone,introduction,avatar,register_time,freespace_kb,total_usable_space_kb ) values(?,?,?,?,?,?,?,?,?,?,?) 
+2017-05-10 21:49:29,220 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==> Parameters: 0(Integer), test(String), 66666(Integer), realtest(String), emailtest(String), telephonetest(String), introductiontest(String), avatartest(String), 2017-05-10 21:49:28.721(Timestamp), 66666(Integer), 66666(Integer)
+2017-05-10 21:49:29,250 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - <==    Updates: 1
+2017-05-10 21:49:29,250 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:49:29,251 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:49:29,251 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:49:29,251 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:49:29,310 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:49:29,310 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@159e366] was not registered for synchronization because synchronization is not active
+2017-05-10 21:49:29,313 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 21:49:29,313 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select * from user where username = ? 
+2017-05-10 21:49:29,314 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 21:49:29,328 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 21:49:29,329 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@159e366]
+2017-05-10 21:49:29,332 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:49:29,332 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b4ef7] was not registered for synchronization because synchronization is not active
+2017-05-10 21:49:29,333 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 21:49:29,333 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==>  Preparing: delete from user_information where user_id = ? 
+2017-05-10 21:49:29,333 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==> Parameters: 0(Integer)
+2017-05-10 21:49:29,383 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - <==    Updates: 1
+2017-05-10 21:49:29,383 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b4ef7]
+2017-05-10 21:49:29,387 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@67c27493: startup date [Wed May 10 21:49:27 CST 2017]; root of context hierarchy
+2017-05-10 21:49:29,397 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 21:51:12,333 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 21:51:12,635 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@67c27493: startup date [Wed May 10 21:51:12 CST 2017]; root of context hierarchy
+2017-05-10 21:51:12,852 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 21:51:12,853 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 21:51:12,855 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 21:51:12,855 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 21:51:12,856 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 21:51:12,856 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 21:51:12,897 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 21:51:13,045 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:51:13,469 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 21:51:13,679 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:51:13,680 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 21:51:13,795 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 21:51:13,814 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 21:51:13,831 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 21:51:14,395 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:51:14,401 DEBUG [org.mybatis.spring.SqlSessionUtils] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:51:14,408 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will be managed by Spring
+2017-05-10 21:51:14,413 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==>  Preparing: insert into user(username,password) value(?,?) 
+2017-05-10 21:51:14,446 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==> Parameters: test(String), order1(String)
+2017-05-10 21:51:14,448 DEBUG [indi.group.pcss.dao.IUserDao.insert] - <==    Updates: 1
+2017-05-10 21:51:14,454 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:51:14,454 DEBUG [org.mybatis.spring.SqlSessionUtils] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc] from current transaction
+2017-05-10 21:51:14,455 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==>  Preparing: insert into user_information ( user_id,username,parent_space_user_id,real_name,email,telephone,introduction,avatar,register_time,freespace_kb,total_usable_space_kb ) values(?,?,?,?,?,?,?,?,?,?,?) 
+2017-05-10 21:51:14,528 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==> Parameters: 0(Integer), test(String), 66666(Integer), realtest(String), emailtest(String), telephonetest(String), introductiontest(String), avatartest(String), 2017-05-10 21:51:14.029(Timestamp), 66666(Integer), 66666(Integer)
+2017-05-10 21:51:14,543 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - <==    Updates: 1
+2017-05-10 21:51:14,543 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:51:14,544 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:51:14,544 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:51:14,544 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:51:14,593 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:51:14,593 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c65121] was not registered for synchronization because synchronization is not active
+2017-05-10 21:51:14,597 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 21:51:14,597 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select * from user where username = ? 
+2017-05-10 21:51:14,598 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 21:51:14,610 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 21:51:14,610 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c65121]
+2017-05-10 21:51:14,611 DEBUG [indi.group.pcss.test.UserServiceImplTest] - User [userId=null, username=test, password=order1]
+2017-05-10 21:51:14,613 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:51:14,613 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d4ab71a] was not registered for synchronization because synchronization is not active
+2017-05-10 21:51:14,614 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 21:51:14,614 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==>  Preparing: delete from user_information where user_id = ? 
+2017-05-10 21:51:14,614 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==> Parameters: 0(Integer)
+2017-05-10 21:51:14,654 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - <==    Updates: 1
+2017-05-10 21:51:14,654 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d4ab71a]
+2017-05-10 21:51:14,657 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@67c27493: startup date [Wed May 10 21:51:12 CST 2017]; root of context hierarchy
+2017-05-10 21:51:14,668 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 21:57:14,139 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 21:57:14,935 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@67c27493: startup date [Wed May 10 21:57:14 CST 2017]; root of context hierarchy
+2017-05-10 21:57:15,552 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 21:57:15,553 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 21:57:15,556 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 21:57:15,556 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 21:57:15,558 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 21:57:15,558 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 21:57:15,655 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 21:57:16,084 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:57:17,022 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 21:57:17,523 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:57:17,526 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 21:57:17,806 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 21:57:17,875 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 21:57:17,921 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 21:57:19,368 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:57:19,378 DEBUG [org.mybatis.spring.SqlSessionUtils] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:57:19,406 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will be managed by Spring
+2017-05-10 21:57:19,419 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==>  Preparing: insert into user(username,password) value(?,?) 
+2017-05-10 21:57:19,509 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==> Parameters: test(String), order1(String)
+2017-05-10 21:57:19,569 DEBUG [indi.group.pcss.dao.IUserDao.insert] - <==    Updates: 1
+2017-05-10 21:57:19,575 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - ==>  Preparing: select LAST_INSERT_ID() 
+2017-05-10 21:57:19,576 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - ==> Parameters: 
+2017-05-10 21:57:19,730 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - <==      Total: 1
+2017-05-10 21:57:19,738 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:57:19,741 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:57:19,741 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:57:19,803 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:57:19,803 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d4ab71a] was not registered for synchronization because synchronization is not active
+2017-05-10 21:57:19,804 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 21:57:19,804 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select * from user where username = ? 
+2017-05-10 21:57:19,804 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 21:57:19,806 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 0
+2017-05-10 21:57:19,806 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d4ab71a]
+2017-05-10 21:57:19,814 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:57:19,814 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54f5f647] was not registered for synchronization because synchronization is not active
+2017-05-10 21:57:19,814 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 21:57:19,815 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==>  Preparing: delete from user_information where user_id = ? 
+2017-05-10 21:57:19,815 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==> Parameters: 0(Integer)
+2017-05-10 21:57:19,817 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - <==    Updates: 0
+2017-05-10 21:57:19,818 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54f5f647]
+2017-05-10 21:57:19,826 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@67c27493: startup date [Wed May 10 21:57:14 CST 2017]; root of context hierarchy
+2017-05-10 21:57:19,865 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 21:58:14,656 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 21:58:15,234 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@67c27493: startup date [Wed May 10 21:58:15 CST 2017]; root of context hierarchy
+2017-05-10 21:58:15,729 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 21:58:15,730 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 21:58:15,730 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 21:58:15,731 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 21:58:15,734 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 21:58:15,734 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 21:58:15,823 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 21:58:16,116 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:58:16,775 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 21:58:17,229 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 21:58:17,240 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 21:58:17,496 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 21:58:17,559 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 21:58:17,604 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 21:58:19,007 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:58:19,043 DEBUG [org.mybatis.spring.SqlSessionUtils] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:58:19,070 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will be managed by Spring
+2017-05-10 21:58:19,088 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==>  Preparing: insert into user(username,password) value(?,?) 
+2017-05-10 21:58:19,188 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==> Parameters: test(String), order1(String)
+2017-05-10 21:58:19,218 DEBUG [indi.group.pcss.dao.IUserDao.insert] - <==    Updates: 1
+2017-05-10 21:58:19,223 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - ==>  Preparing: select LAST_INSERT_ID() 
+2017-05-10 21:58:19,223 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - ==> Parameters: 
+2017-05-10 21:58:19,382 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - <==      Total: 1
+2017-05-10 21:58:19,385 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:58:19,386 DEBUG [org.mybatis.spring.SqlSessionUtils] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc] from current transaction
+2017-05-10 21:58:19,386 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==>  Preparing: insert into user_information ( user_id,username,parent_space_user_id,real_name,email,telephone,introduction,avatar,register_time,freespace_kb,total_usable_space_kb ) values(?,?,?,?,?,?,?,?,?,?,?) 
+2017-05-10 21:58:19,399 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==> Parameters: 0(Integer), test(String), 66666(Integer), realtest(String), emailtest(String), telephonetest(String), introductiontest(String), avatartest(String), 2017-05-10 21:58:18.219(Timestamp), 66666(Integer), 66666(Integer)
+2017-05-10 21:58:19,401 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - <==    Updates: 1
+2017-05-10 21:58:19,401 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:58:19,402 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:58:19,402 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:58:19,402 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 21:58:19,456 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:58:19,456 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36b6964d] was not registered for synchronization because synchronization is not active
+2017-05-10 21:58:19,457 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 21:58:19,457 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select * from user where username = ? 
+2017-05-10 21:58:19,457 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 21:58:19,460 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 21:58:19,461 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36b6964d]
+2017-05-10 21:58:19,461 DEBUG [indi.group.pcss.test.UserServiceImplTest] - User [userId=null, username=test, password=order1]
+2017-05-10 21:58:19,466 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 21:58:19,466 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1af05b03] was not registered for synchronization because synchronization is not active
+2017-05-10 21:58:19,467 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 21:58:19,467 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==>  Preparing: delete from user_information where user_id = ? 
+2017-05-10 21:58:19,467 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==> Parameters: 0(Integer)
+2017-05-10 21:58:19,515 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - <==    Updates: 1
+2017-05-10 21:58:19,516 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1af05b03]
+2017-05-10 21:58:19,555 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@67c27493: startup date [Wed May 10 21:58:15 CST 2017]; root of context hierarchy
+2017-05-10 21:58:19,568 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 22:04:30,072 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 22:04:30,391 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 22:04:30 CST 2017]; root of context hierarchy
+2017-05-10 22:04:30,621 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 22:04:30,622 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 22:04:30,622 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 22:04:30,623 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 22:04:30,624 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 22:04:30,624 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 22:04:30,669 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 22:04:30,788 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:04:31,151 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 22:04:31,362 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:04:31,364 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 22:04:31,479 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 22:04:31,498 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 22:04:31,518 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 22:04:31,761 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:04:31,766 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60d84f61] was not registered for synchronization because synchronization is not active
+2017-05-10 22:04:32,107 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@28c0b664] will not be managed by Spring
+2017-05-10 22:04:32,112 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select * from user where username = ? 
+2017-05-10 22:04:32,147 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:04:32,232 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:04:32,259 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60d84f61]
+2017-05-10 22:04:32,262 DEBUG [indi.group.pcss.test.UserServiceImplTest] - User [userId=null, username=test, password=order1]
+2017-05-10 22:04:32,268 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 22:04:30 CST 2017]; root of context hierarchy
+2017-05-10 22:04:32,277 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 22:08:26,831 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 22:08:27,100 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 22:08:27 CST 2017]; root of context hierarchy
+2017-05-10 22:08:27,308 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 22:08:27,309 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 22:08:27,309 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 22:08:27,310 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 22:08:27,311 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 22:08:27,311 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 22:08:27,344 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 22:08:27,460 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:08:27,819 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 22:08:28,036 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:08:28,038 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 22:08:28,168 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 22:08:28,204 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 22:08:28,263 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 22:08:28,552 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:08:28,561 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60d84f61] was not registered for synchronization because synchronization is not active
+2017-05-10 22:08:28,900 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@28c0b664] will not be managed by Spring
+2017-05-10 22:08:28,905 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select * from user where username = ? 
+2017-05-10 22:08:28,939 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:08:29,022 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:08:29,023 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60d84f61]
+2017-05-10 22:08:29,024 DEBUG [indi.group.pcss.test.UserServiceImplTest] - null
+2017-05-10 22:08:29,031 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 22:08:27 CST 2017]; root of context hierarchy
+2017-05-10 22:08:29,037 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 22:09:40,728 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 22:09:41,006 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 22:09:41 CST 2017]; root of context hierarchy
+2017-05-10 22:09:41,213 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 22:09:41,213 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 22:09:41,214 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 22:09:41,214 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 22:09:41,215 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 22:09:41,215 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 22:09:41,245 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 22:09:41,357 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:09:41,687 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 22:09:41,870 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:09:41,871 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 22:09:41,980 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 22:09:42,003 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 22:09:42,022 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 22:09:42,234 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:09:42,241 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60d84f61] was not registered for synchronization because synchronization is not active
+2017-05-10 22:09:42,569 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@28c0b664] will not be managed by Spring
+2017-05-10 22:09:42,575 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select * from user where username = ? 
+2017-05-10 22:09:42,608 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:09:42,689 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:09:42,691 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60d84f61]
+2017-05-10 22:09:42,693 DEBUG [indi.group.pcss.test.UserServiceImplTest] - null
+2017-05-10 22:09:42,700 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 22:09:41 CST 2017]; root of context hierarchy
+2017-05-10 22:09:42,705 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 22:11:43,446 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 22:11:43,705 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 22:11:43 CST 2017]; root of context hierarchy
+2017-05-10 22:11:43,914 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 22:11:43,915 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 22:11:43,916 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 22:11:43,916 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 22:11:43,917 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 22:11:43,917 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 22:11:43,954 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 22:11:44,071 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:11:44,422 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 22:11:44,609 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:11:44,618 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 22:11:44,727 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 22:11:44,747 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 22:11:44,774 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 22:11:45,011 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:11:45,016 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60d84f61] was not registered for synchronization because synchronization is not active
+2017-05-10 22:11:45,337 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@28c0b664] will not be managed by Spring
+2017-05-10 22:11:45,345 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id,username,password from user where username = ? 
+2017-05-10 22:11:45,386 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:11:45,473 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:11:45,474 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60d84f61]
+2017-05-10 22:11:45,475 DEBUG [indi.group.pcss.test.UserServiceImplTest] - null
+2017-05-10 22:11:45,480 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 22:11:43 CST 2017]; root of context hierarchy
+2017-05-10 22:11:45,487 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 22:14:23,309 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 22:14:23,611 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 22:14:23 CST 2017]; root of context hierarchy
+2017-05-10 22:14:23,852 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 22:14:23,852 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 22:14:23,853 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 22:14:23,854 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 22:14:23,855 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 22:14:23,855 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 22:14:23,897 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 22:14:24,031 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:14:24,428 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 22:14:24,674 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:14:24,678 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 22:14:24,798 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 22:14:24,827 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 22:14:24,855 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 22:14:25,099 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:14:25,106 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60d84f61] was not registered for synchronization because synchronization is not active
+2017-05-10 22:14:25,450 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@28c0b664] will not be managed by Spring
+2017-05-10 22:14:25,455 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select userId as user_id,username,password from user where username = ? 
+2017-05-10 22:14:25,488 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:14:25,505 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60d84f61]
+2017-05-10 22:14:25,513 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-05-10 22:14:25,626 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 22:14:23 CST 2017]; root of context hierarchy
+2017-05-10 22:14:25,635 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 22:14:52,577 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 22:14:52,863 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 22:14:52 CST 2017]; root of context hierarchy
+2017-05-10 22:14:53,070 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 22:14:53,071 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 22:14:53,071 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 22:14:53,072 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 22:14:53,073 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 22:14:53,073 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 22:14:53,104 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 22:14:53,235 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:14:53,620 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 22:14:53,876 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:14:53,878 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 22:14:54,053 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 22:14:54,086 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 22:14:54,107 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 22:14:54,318 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:14:54,324 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39c11e6c] was not registered for synchronization because synchronization is not active
+2017-05-10 22:14:54,662 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@2c444798] will not be managed by Spring
+2017-05-10 22:14:54,668 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:14:54,705 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:14:54,791 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:14:54,792 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39c11e6c]
+2017-05-10 22:14:54,792 DEBUG [indi.group.pcss.test.UserServiceImplTest] - 12
+2017-05-10 22:14:54,799 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@2f9f7dcf: startup date [Wed May 10 22:14:52 CST 2017]; root of context hierarchy
+2017-05-10 22:14:54,806 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 22:16:12,142 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 22:16:12,430 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@1b7cc17c: startup date [Wed May 10 22:16:12 CST 2017]; root of context hierarchy
+2017-05-10 22:16:12,654 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 22:16:12,655 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 22:16:12,655 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 22:16:12,656 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 22:16:12,657 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 22:16:12,657 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 22:16:12,698 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 22:16:12,826 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:16:13,160 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 22:16:13,374 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:16:13,377 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 22:16:13,495 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 22:16:13,519 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 22:16:13,541 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 22:16:14,090 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:16:14,095 DEBUG [org.mybatis.spring.SqlSessionUtils] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 22:16:14,104 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will be managed by Spring
+2017-05-10 22:16:14,108 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==>  Preparing: insert into user(username,password) value(?,?) 
+2017-05-10 22:16:14,151 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==> Parameters: test(String), order1(String)
+2017-05-10 22:16:14,186 DEBUG [indi.group.pcss.dao.IUserDao.insert] - <==    Updates: 1
+2017-05-10 22:16:14,188 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - ==>  Preparing: select LAST_INSERT_ID() 
+2017-05-10 22:16:14,189 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - ==> Parameters: 
+2017-05-10 22:16:14,266 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - <==      Total: 1
+2017-05-10 22:16:14,266 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 22:16:14,267 DEBUG [org.mybatis.spring.SqlSessionUtils] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc] from current transaction
+2017-05-10 22:16:14,267 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==>  Preparing: insert into user_information ( user_id,username,parent_space_user_id,real_name,email,telephone,introduction,avatar,register_time,freespace_kb,total_usable_space_kb ) values(?,?,?,?,?,?,?,?,?,?,?) 
+2017-05-10 22:16:14,276 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==> Parameters: 0(Integer), test(String), 66666(Integer), realtest(String), emailtest(String), telephonetest(String), introductiontest(String), avatartest(String), 2017-05-10 22:16:13.75(Timestamp), 66666(Integer), 66666(Integer)
+2017-05-10 22:16:14,380 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - <==    Updates: 1
+2017-05-10 22:16:14,380 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 22:16:14,380 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 22:16:14,381 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 22:16:14,381 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 22:16:14,532 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:16:14,532 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36b6964d] was not registered for synchronization because synchronization is not active
+2017-05-10 22:16:14,533 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 22:16:14,533 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:16:14,533 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:16:14,536 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:16:14,536 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36b6964d]
+2017-05-10 22:16:14,536 DEBUG [indi.group.pcss.test.UserServiceImplTest] - 10002
+2017-05-10 22:16:14,539 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:16:14,539 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d9fc57a] was not registered for synchronization because synchronization is not active
+2017-05-10 22:16:14,539 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 22:16:14,539 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:16:14,540 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:16:14,541 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:16:14,541 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d9fc57a]
+2017-05-10 22:16:14,541 DEBUG [indi.group.pcss.test.UserServiceImplTest] - User [userId=10002, username=test, password=order1]
+2017-05-10 22:16:14,542 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:16:14,542 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1af05b03] was not registered for synchronization because synchronization is not active
+2017-05-10 22:16:14,576 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 22:16:14,576 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - ==>  Preparing: update user SET user_id = ?, username = ?, password = ? where user_id = ? 
+2017-05-10 22:16:14,576 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - ==> Parameters: 10002(Integer), testmodify(String), order1(String), 10002(Integer)
+2017-05-10 22:16:14,660 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - <==    Updates: 1
+2017-05-10 22:16:14,661 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1af05b03]
+2017-05-10 22:16:14,661 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:16:14,661 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@721eb7df] was not registered for synchronization because synchronization is not active
+2017-05-10 22:16:14,661 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 22:16:14,661 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:16:14,662 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:16:14,664 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 0
+2017-05-10 22:16:14,664 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@721eb7df]
+2017-05-10 22:16:14,672 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:16:14,673 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17f460bb] was not registered for synchronization because synchronization is not active
+2017-05-10 22:16:14,673 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 22:16:14,673 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:16:14,674 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:16:14,675 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 0
+2017-05-10 22:16:14,675 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17f460bb]
+2017-05-10 22:16:14,678 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:16:14,679 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aa648b9] was not registered for synchronization because synchronization is not active
+2017-05-10 22:16:14,679 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 22:16:14,679 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==>  Preparing: delete from user_information where user_id = ? 
+2017-05-10 22:16:14,679 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==> Parameters: 0(Integer)
+2017-05-10 22:16:14,770 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - <==    Updates: 1
+2017-05-10 22:16:14,771 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aa648b9]
+2017-05-10 22:16:14,775 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@1b7cc17c: startup date [Wed May 10 22:16:12 CST 2017]; root of context hierarchy
+2017-05-10 22:16:14,787 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 22:18:38,497 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 22:18:38,790 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@1b7cc17c: startup date [Wed May 10 22:18:38 CST 2017]; root of context hierarchy
+2017-05-10 22:18:39,024 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 22:18:39,025 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 22:18:39,026 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 22:18:39,026 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 22:18:39,028 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 22:18:39,028 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 22:18:39,069 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 22:18:39,200 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:18:39,531 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 22:18:39,720 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:18:39,722 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 22:18:39,842 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 22:18:39,861 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 22:18:39,876 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 22:18:40,405 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:40,410 DEBUG [org.mybatis.spring.SqlSessionUtils] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 22:18:40,419 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will be managed by Spring
+2017-05-10 22:18:40,423 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==>  Preparing: insert into user(username,password) value(?,?) 
+2017-05-10 22:18:40,462 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==> Parameters: test(String), order1(String)
+2017-05-10 22:18:40,468 DEBUG [indi.group.pcss.dao.IUserDao.insert] - <==    Updates: 1
+2017-05-10 22:18:40,471 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - ==>  Preparing: select LAST_INSERT_ID() 
+2017-05-10 22:18:40,471 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - ==> Parameters: 
+2017-05-10 22:18:40,549 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - <==      Total: 1
+2017-05-10 22:18:40,550 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 22:18:40,550 DEBUG [org.mybatis.spring.SqlSessionUtils] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc] from current transaction
+2017-05-10 22:18:40,551 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==>  Preparing: insert into user_information ( user_id,username,parent_space_user_id,real_name,email,telephone,introduction,avatar,register_time,freespace_kb,total_usable_space_kb ) values(?,?,?,?,?,?,?,?,?,?,?) 
+2017-05-10 22:18:40,558 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==> Parameters: 0(Integer), test(String), 66666(Integer), realtest(String), emailtest(String), telephonetest(String), introductiontest(String), avatartest(String), 2017-05-10 22:18:40.076(Timestamp), 66666(Integer), 66666(Integer)
+2017-05-10 22:18:40,559 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - <==    Updates: 1
+2017-05-10 22:18:40,559 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 22:18:40,560 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 22:18:40,560 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 22:18:40,560 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@255990cc]
+2017-05-10 22:18:40,646 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:40,646 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5215cd9a] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:40,646 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 22:18:40,646 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:18:40,647 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:18:40,649 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:18:40,649 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5215cd9a]
+2017-05-10 22:18:40,650 DEBUG [indi.group.pcss.test.UserServiceImplTest] - 10003
+2017-05-10 22:18:40,651 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:40,652 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1db0ec27] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:40,652 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 22:18:40,652 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:18:40,652 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:18:40,653 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:18:40,654 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1db0ec27]
+2017-05-10 22:18:40,654 DEBUG [indi.group.pcss.test.UserServiceImplTest] - User [userId=10003, username=test, password=order1]
+2017-05-10 22:18:40,654 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:40,655 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b4ef7] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:40,685 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 22:18:40,685 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - ==>  Preparing: update user SET user_id = ?, username = ?, password = ? where user_id = ? 
+2017-05-10 22:18:40,685 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - ==> Parameters: 10003(Integer), testmodify(String), order1(String), 10003(Integer)
+2017-05-10 22:18:40,741 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - <==    Updates: 1
+2017-05-10 22:18:40,741 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b4ef7]
+2017-05-10 22:18:40,742 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:40,742 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@669d2b1b] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:40,743 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 22:18:40,743 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:18:40,744 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: testmodify(String)
+2017-05-10 22:18:40,747 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:18:40,748 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@669d2b1b]
+2017-05-10 22:18:40,752 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:40,753 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@553f3b6e] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:40,753 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 22:18:40,754 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:18:40,755 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:18:40,757 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 0
+2017-05-10 22:18:40,758 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@553f3b6e]
+2017-05-10 22:18:40,775 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:40,775 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c0f7678] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:40,775 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3abd581e] will not be managed by Spring
+2017-05-10 22:18:40,775 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==>  Preparing: delete from user_information where user_id = ? 
+2017-05-10 22:18:40,776 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==> Parameters: 0(Integer)
+2017-05-10 22:18:40,864 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - <==    Updates: 1
+2017-05-10 22:18:40,864 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c0f7678]
+2017-05-10 22:18:40,868 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@1b7cc17c: startup date [Wed May 10 22:18:38 CST 2017]; root of context hierarchy
+2017-05-10 22:18:40,874 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2017-05-10 22:18:54,520 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-10 22:18:54,793 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@1b7cc17c: startup date [Wed May 10 22:18:54 CST 2017]; root of context hierarchy
+2017-05-10 22:18:55,029 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IFileInformationDao.class]
+2017-05-10 22:18:55,030 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserDao.class]
+2017-05-10 22:18:55,031 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\dao\IUserInformationDao.class]
+2017-05-10 22:18:55,031 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IFileInformationDao' and 'indi.group.pcss.dao.IFileInformationDao' mapperInterface
+2017-05-10 22:18:55,033 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserDao' and 'indi.group.pcss.dao.IUserDao' mapperInterface
+2017-05-10 22:18:55,033 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'IUserInformationDao' and 'indi.group.pcss.dao.IUserInformationDao' mapperInterface
+2017-05-10 22:18:55,079 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-10 22:18:55,242 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:18:55,601 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-05-10 22:18:55,802 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-10 22:18:55,803 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-05-10 22:18:55,925 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\FileInformation-Mapper.xml]'
+2017-05-10 22:18:55,952 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\User-Mapper.xml]'
+2017-05-10 22:18:55,975 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\Github\XC-respository\PersonalCloudStorageSystem\target\classes\indi\group\pcss\model\mapping\UserInformation-Mapper.xml]'
+2017-05-10 22:18:56,496 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:56,501 DEBUG [org.mybatis.spring.SqlSessionUtils] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54e7391d]
+2017-05-10 22:18:56,509 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c321bdb] will be managed by Spring
+2017-05-10 22:18:56,515 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==>  Preparing: insert into user(username,password) value(?,?) 
+2017-05-10 22:18:56,550 DEBUG [indi.group.pcss.dao.IUserDao.insert] - ==> Parameters: test(String), order1(String)
+2017-05-10 22:18:56,553 DEBUG [indi.group.pcss.dao.IUserDao.insert] - <==    Updates: 1
+2017-05-10 22:18:56,557 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - ==>  Preparing: select LAST_INSERT_ID() 
+2017-05-10 22:18:56,557 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - ==> Parameters: 
+2017-05-10 22:18:56,635 DEBUG [indi.group.pcss.dao.IUserDao.insert!selectKey] - <==      Total: 1
+2017-05-10 22:18:56,636 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54e7391d]
+2017-05-10 22:18:56,636 DEBUG [org.mybatis.spring.SqlSessionUtils] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54e7391d] from current transaction
+2017-05-10 22:18:56,637 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==>  Preparing: insert into user_information ( user_id,username,parent_space_user_id,real_name,email,telephone,introduction,avatar,register_time,freespace_kb,total_usable_space_kb ) values(?,?,?,?,?,?,?,?,?,?,?) 
+2017-05-10 22:18:56,642 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - ==> Parameters: 0(Integer), test(String), 66666(Integer), realtest(String), emailtest(String), telephonetest(String), introductiontest(String), avatartest(String), 2017-05-10 22:18:56.168(Timestamp), 66666(Integer), 66666(Integer)
+2017-05-10 22:18:56,643 DEBUG [indi.group.pcss.dao.IUserInformationDao.insert] - <==    Updates: 1
+2017-05-10 22:18:56,643 DEBUG [org.mybatis.spring.SqlSessionUtils] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54e7391d]
+2017-05-10 22:18:56,644 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54e7391d]
+2017-05-10 22:18:56,644 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54e7391d]
+2017-05-10 22:18:56,644 DEBUG [org.mybatis.spring.SqlSessionUtils] - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54e7391d]
+2017-05-10 22:18:56,702 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:56,702 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e34c607] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:56,702 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c321bdb] will not be managed by Spring
+2017-05-10 22:18:56,702 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:18:56,703 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:18:56,705 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:18:56,705 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e34c607]
+2017-05-10 22:18:56,706 DEBUG [indi.group.pcss.test.UserServiceImplTest] - 10004
+2017-05-10 22:18:56,707 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:56,707 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5dda14d0] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:56,708 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c321bdb] will not be managed by Spring
+2017-05-10 22:18:56,708 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:18:56,708 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: test(String)
+2017-05-10 22:18:56,710 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:18:56,710 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5dda14d0]
+2017-05-10 22:18:56,710 DEBUG [indi.group.pcss.test.UserServiceImplTest] - User [userId=10004, username=test, password=order1]
+2017-05-10 22:18:56,710 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:56,710 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d4ab71a] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:56,742 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c321bdb] will not be managed by Spring
+2017-05-10 22:18:56,743 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - ==>  Preparing: update user SET user_id = ?, username = ?, password = ? where user_id = ? 
+2017-05-10 22:18:56,743 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - ==> Parameters: 10004(Integer), testmodify(String), order1(String), 10004(Integer)
+2017-05-10 22:18:56,784 DEBUG [indi.group.pcss.dao.IUserDao.updateByUserId] - <==    Updates: 1
+2017-05-10 22:18:56,785 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d4ab71a]
+2017-05-10 22:18:56,785 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:56,785 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38600b] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:56,785 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c321bdb] will not be managed by Spring
+2017-05-10 22:18:56,785 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:18:56,786 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: testmodify(String)
+2017-05-10 22:18:56,787 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:18:56,787 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38600b]
+2017-05-10 22:18:56,789 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:56,789 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5298dead] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:56,789 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c321bdb] will not be managed by Spring
+2017-05-10 22:18:56,790 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==>  Preparing: select user_id as userId,username,password from user where username = ? 
+2017-05-10 22:18:56,790 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - ==> Parameters: testmodify(String)
+2017-05-10 22:18:56,792 DEBUG [indi.group.pcss.dao.IUserDao.selectByUsername] - <==      Total: 1
+2017-05-10 22:18:56,792 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5298dead]
+2017-05-10 22:18:56,793 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:56,793 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e406694] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:56,793 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c321bdb] will not be managed by Spring
+2017-05-10 22:18:56,793 DEBUG [indi.group.pcss.dao.IUserDao.deleteByUserId] - ==>  Preparing: delete from user where user_id = ? 
+2017-05-10 22:18:56,793 DEBUG [indi.group.pcss.dao.IUserDao.deleteByUserId] - ==> Parameters: 10004(Integer)
+2017-05-10 22:18:56,841 DEBUG [indi.group.pcss.dao.IUserDao.deleteByUserId] - <==    Updates: 1
+2017-05-10 22:18:56,841 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e406694]
+2017-05-10 22:18:56,843 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2017-05-10 22:18:56,843 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41c62850] was not registered for synchronization because synchronization is not active
+2017-05-10 22:18:56,843 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c321bdb] will not be managed by Spring
+2017-05-10 22:18:56,844 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==>  Preparing: delete from user_information where user_id = ? 
+2017-05-10 22:18:56,845 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - ==> Parameters: 0(Integer)
+2017-05-10 22:18:56,895 DEBUG [indi.group.pcss.dao.IUserInformationDao.deleteByUserId] - <==    Updates: 1
+2017-05-10 22:18:56,895 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41c62850]
+2017-05-10 22:18:56,898 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@1b7cc17c: startup date [Wed May 10 22:18:54 CST 2017]; root of context hierarchy
+2017-05-10 22:18:56,907 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed

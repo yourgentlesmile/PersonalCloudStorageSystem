@@ -31,7 +31,9 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="datasources"/>
         <property name="mapperLocations" value="classpath:indi/group/pcss/model/mapping/*.xml"/>
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
     </bean>
+    <!-- 扫描DAO类 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="indi.group.pcss.dao"></property>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>

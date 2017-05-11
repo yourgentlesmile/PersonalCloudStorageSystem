@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="indi.group.pcss.dao.IUserInformationDao">
+    <resultMap type="indi.group.pcss.model.UserInformation" id="BaseResultMap">
+        <result column="user_id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="parent_space_user_id" property="parent_space_user_id"/>
+        <result column="real_name" property="real_name"/>
+        <result column="email" property="email"/>
+        <result column="telephone" property="telephone"/>
+        <result column="introduction" property="introduction"/>
+        <result column="avatar" property="avatar"/>
+        <result column="register_time" property="register_time"/>
+        <result column="freespace_kb" property="freespace_kb"/>
+        <result column="total_usable_space_kb" property="total_usable_space_kb"/>
+    </resultMap>
+    <sql id="AllColumn">
+        user_id,username,parent_space_user_id,real_name,email,telephone,introduction,avatar,register_time,freespace_kb,total_usable_space_kb
+    </sql>
+    <insert id="insert" parameterType="indi.group.pcss.model.UserInformation">
+        insert into user_information (<include refid="AllColumn"/>) values(#{id},#{username},#{parent_space_user_id},#{real_name},#{email},#{telephone},#{introduction},#{avatar},#{register_time},#{freespace_kb},#{total_usable_space_kb})
+    </insert>
+    <delete id="deleteByUserId" parameterType="java.lang.Integer">
+        delete from user_information where user_id = #{id}
+    </delete>
+    <select id="selectByUserId" parameterType="java.lang.Integer" resultType="indi.group.pcss.model.UserInformation">
+        select <include refid="AllColumn"/> from user_information where id = #{id}
+    </select>
+    <update id="updateByUserId" parameterType="indi.group.pcss.model.UserInformation">
+        update user_information
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="username != null">
+                username = #{username},
+            </if>
+            <if test="parent_space_user_id != null">
+                parent_space_user_id = #{parent_space_user_id},
+            </if>
+            <if test="real_name != null">
+                real_name = #{real_name},
+            </if>
+            <if test="email != null">
+                email = #{email},
+            </if>
+            <if test="telephone != null">
+                telephone = #{telephone},
+            </if>
+            <if test="introduction != null">
+                introduction = #{introduction},
+            </if>
+            <if test="avatar != null">
+                avatar = #{avatar},
+            </if>
+            <if test="register_time != null">
+                avatar = #{register_time},
+            </if>
+            <if test="freespace_kb != null">
+                freespace_kb = #{freespace_kb},
+            </if>
+            <if test="total_usable_space_kb != null">
+                total_usable_space_kb = #{total_usable_space_kb},
+            </if>
+        </trim>
+        where user_id = #{id}
+    </update>
+    <select id="listGetAll" resultMap="BaseResultMap">
+        select * from user_information
+    </select>
+</mapper>
